@@ -6,7 +6,7 @@ board = [[" " for _ in range(3)] for _ in range(3)]
 def print_board(board):
     for row in board:
         print(" | ".join(row))
-        print("-" * 5)
+        print("-" * 10)
 
 # Checks if there is a winner
 def check_winner(board, player):
